@@ -10,4 +10,4 @@ vol = ec2.create_volume(AvailabilityZone='us-east-1a', Size=10, VolumeType='stan
 ec2.create_tags(Resources=[vol['VolumeId']], Tags=[{'Key':'name', 'Value':'testvolume'}])
 
 #List Created volume id
-print("Created vol ID: " + vol['VolumeId'])
+print("Created Vol Id: " + vol['VolumeId'])
