@@ -6,9 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('error') {
+    stage('') {
       steps {
-        sh 'sudo docker pull ankurpatel/tomcat'
+        dir(path: 'cd /tmp')
       }
     }
   }
