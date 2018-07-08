@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'sudo docker build -t ankurpatel/tomcat:V1 .'
+        sh 'sudo docker pull ankurpatel/tomcat'
       }
     }
   }
