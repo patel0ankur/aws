@@ -1,12 +1,7 @@
 pipeline {
-  agent {
-    docker {
-      image 'ankurpatel/tomcat'
-    }
-
-  }
+  agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         dir(path: 'cd /tmp')
       }
