@@ -10,7 +10,7 @@ pipeline {
     stage('hello') {
       steps {
         sh '''echo "Hello World"
-yum install nginx'''
+sudo yum install nginx -y'''
       }
     }
   }
