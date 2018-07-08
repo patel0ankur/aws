@@ -1,12 +1,12 @@
 pipeline {
   agent {
-    dockerfile {
-      filename 'Dockerfile'
+    docker {
+      image 'ankurpatel/tomcat'
     }
 
   }
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh 'docker build -t ankurpatel/tomcat:V1 .'
       }
