@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        dir(path: 'cd /tmp')
+        sh 'echo "Hello World"'
       }
     }
   }
