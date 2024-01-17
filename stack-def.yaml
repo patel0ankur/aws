@@ -1,4 +1,5 @@
 template-file-path: iam_role.yaml
+template-file-path: ebs-vol.yaml
 
 # parameters: 
 #     image: public.ecr.aws/lts/nginx:latest
