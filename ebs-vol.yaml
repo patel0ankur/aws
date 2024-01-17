@@ -1,8 +1,3 @@
-Resources:
-  NewVolume:
-    Type: AWS::EC2::Volume
-    Properties: 
-      Size: 100
-      VolumeType: io1
-      Iops: 100
-      AvailabilityZone: 'us-east-1a'
+template-file-path: ebs-vol.yaml
+parameters: {}
+tags: {}
